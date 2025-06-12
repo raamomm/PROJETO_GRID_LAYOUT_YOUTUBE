@@ -27,25 +27,20 @@ body{
    margin-right: 30px;
 }
 
-.text{
-    width: 21.75rem;
+.search-area{
+    width: 404px;
     height: 40px;
-    margin-right: 0;
+    padding: 10px;
+}
+
+.text{
+    width: 348px;
+    height: 40px;
     background-color: #ffffff;
     border: 1px solid #CCCCCC;
-    resize: none;
-    
-
 }
 
-.search-button{
-    
-    background-color: #F8F8F8;
-    border: 1px solid #CCCCCC;
-    cursor: pointer;
-    
-}
-
+.button-search
 
     
 
