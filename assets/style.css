@@ -24,13 +24,16 @@ body{
 }
 
 .menu-logo img{
+
    margin-right: 30px;
 }
 
 .search-area{
+    display: flex;
+    align-items: center;
     width: 404px;
     height: 40px;
-    padding: 10px;
+    
 }
 
 .text{
@@ -40,7 +43,35 @@ body{
     border: 1px solid #CCCCCC;
 }
 
-.button-search
-
+.search-button{
+    display: flex;
+    width: 57px;
+    height: 40px;
+    padding: 21px 15px;
+    border: 1px solid #CCCCCC;
+    align-items: center;
+    justify-items: center;
     
+    
+}
+
+.search-button img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.video-bell-profile img{
+    margin-left: 20px;
+}
+
+.profile{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+
+
+
 
