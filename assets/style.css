@@ -82,6 +82,24 @@ body{
 
 }
 
+
+.titles{
+    
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+    vertical-align: top;
+
+    
+}
+
+
+
+
+
+
 main{
     width: 1200px;
     height: 800px;
@@ -89,16 +107,5 @@ main{
     background-color: aqua;
 }
 
-.titles{
-    
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    letter-spacing: 0;
-    vertical-align: top;
-
-    
-}
 
 
