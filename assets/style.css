@@ -76,6 +76,7 @@ body{
 
 .aside{
     grid-area: aside;
+    flex-direction: column;
     width: 218px;
     background-color: orange;
     margin: 25px;
@@ -83,11 +84,23 @@ body{
 }
 
 
-.titles{
+#titles{
     
     margin-left: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+    vertical-align: top;
+
+    
+}
+
+.titles-off-bold{
+    
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 1.5;
     vertical-align: top;
