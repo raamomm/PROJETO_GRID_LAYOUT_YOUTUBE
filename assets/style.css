@@ -7,7 +7,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "header header header header header";
+    grid-template-areas: "header header header header header" "aside aside . . . ";
    
     
     
@@ -71,6 +71,14 @@ body{
     border-radius: 50%;
 }
 
+
+.menu-lateral{
+    grid-area: aside;
+    width: 218px;
+    background-color: orange;
+    margin: 30px;
+
+}
 
 
 
