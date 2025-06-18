@@ -124,14 +124,13 @@ main{
     background-color: #f9f9f9;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
     gap: 16px;
 
 }
 
 .conteudo{
     width: 282px;
-    height: 282px;
+    height: 262px;
     
 
 }
